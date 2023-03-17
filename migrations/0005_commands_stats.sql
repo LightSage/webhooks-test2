@@ -1,4 +1,4 @@
-ALTER TABLE guild_config DROP COLUMN IF EXISTS flags;
+
 
 
 ALTER TABLE commands_usage ADD COLUMN IF NOT EXISTS application_command BOOLEAN;
