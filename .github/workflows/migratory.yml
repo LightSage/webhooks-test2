@@ -12,7 +12,7 @@ jobs:
           env:
             POSTGRES_USERNAME: lightning
             POSTGRES_PASSWORD: postgres
-            POSTGRES_DB: lightning
+            POSTGRES_DB: postgres
           options: >-
             --health-cmd pg_isready
             --health-interval 10s
